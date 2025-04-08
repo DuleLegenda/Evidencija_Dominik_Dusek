@@ -9,7 +9,7 @@ if (!isset($_SESSION['user_id'])) {
     exit;
 }
 
-// Samo admin može uređivati druge korisnike
+// Samo admin može uređivati druge korisnike.
 if ($_SESSION['role'] !== 'admin') {
     header("Location: dashboard.php");
     exit;
