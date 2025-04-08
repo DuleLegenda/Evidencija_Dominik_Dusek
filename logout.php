@@ -1,6 +1,5 @@
 <?php
-// logout.php - Odjava korisnika
-session_start();
+// logout.php - Odjava korisnika iz aplikacije
 session_destroy();
 header('Location: login.php');
 exit;
