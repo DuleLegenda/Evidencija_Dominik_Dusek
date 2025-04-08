@@ -1,0 +1,27 @@
+/esp_dd_v5/
+│
+├── /css/
+│   ├── style.css
+│   ├── admin.css
+│   ├── dashboard.css
+│   └── login.css
+│
+├── /includes/
+│   ├── auth.php
+│   ├── db.php
+│   ├── navigation.php
+│   ├── header.php
+│   └── footer.php
+│
+├── /uploads/
+│   └── profile_pictures/
+│
+├── index.php
+├── login.php
+├── dashboard.php
+├── approvals.php
+├── admin_users.php
+├── admin_requests.php
+├── settings.php
+├── travel_detail.php
+└── logout.php
