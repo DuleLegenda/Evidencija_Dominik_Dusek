@@ -1,27 +1,38 @@
-/esp_dd_v5/
-│
-├── /css/
-│   ├── style.css
-│   ├── admin.css
-│   ├── dashboard.css
-│   └── login.css
-│
-├── /includes/
-│   ├── auth.php
-│   ├── db.php
-│   ├── navigation.php
-│   ├── header.php
-│   └── footer.php
-│
-├── /uploads/
-│   └── profile_pictures/
-│
-├── index.php
-├── login.php
-├── dashboard.php
-├── approvals.php
-├── admin_users.php
-├── admin_requests.php
-├── settings.php
-├── travel_detail.php
-└── logout.php
+# PUTANJE / RUTE APLIKACIJE
+
+1. Autentikacija
+   - login.php             -> Prijava korisnika
+   - logout.php            -> Odjava korisnika
+   - includes/auth.php     -> Provjera autentikacije
+
+2. Korisnici
+   - admin_users.php       -> Pregled, uređivanje i brisanje korisnika (admin)
+   - edit_user.php         -> Uređivanje podataka o korisniku
+
+3. Zahtjevi za putovanja
+   - new_request.php       -> Kreiranje novog zahtjeva
+   - edit_request.php      -> Uređivanje zahtjeva
+   - delete_request.php    -> Brisanje zahtjeva
+   - admin_request.php     -> Upravljanje zahtjevima (admin/nadređeni)
+   - approvals.php         -> Odobravanje zahtjeva
+
+4. Putni detalji
+   - travel_details.php    -> Prikaz troškova (prijevoz, smještaj, dnevnice)
+
+5. Korisnički paneli
+   - dashboard.php         -> Glavna stranica nakon prijave
+   - settings.php          -> Promjena lozinke i postavki
+   - change_password.php   -> Promjena lozinke
+
+6. Uključi datoteke (za sve stranice)
+   - includes/db.php           -> Povezivanje na bazu
+   - includes/header.php       -> HTML zaglavlje
+   - includes/footer.php       -> HTML podnožje
+   - includes/navigation.php   -> Navigacija
+
+7. Uploadi
+   - uploads/profile_pics/     -> Mjesto za slike profila
+
+8. Ostalo
+   - index.php             -> Početna / redirekcija
+   - README.md             -> Dokumentacija
